@@ -1,0 +1,93 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="instanceFactory" class="com.epam.rd.autotasks.chesspuzles.xmlconfig.Factory" />
+    <bean id="0" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="H"/>
+        <constructor-arg value="8"/>
+        <constructor-arg value="r"/>
+    </bean>
+    <bean id="1" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="B"/>
+        <constructor-arg value="7"/>
+        <constructor-arg value="P"/>
+    </bean>
+    <bean id="2" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="D"/>
+        <constructor-arg value="7"/>
+        <constructor-arg value="Q"/>
+    </bean>
+    <bean id="3" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="E"/>
+        <constructor-arg value="7"/>
+        <constructor-arg value="P"/>
+    </bean>
+    <bean id="4" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="F"/>
+        <constructor-arg value="7"/>
+        <constructor-arg value="r"/>
+    </bean>
+    <bean id="5" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="A"/>
+        <constructor-arg value="6"/>
+        <constructor-arg value="P"/>
+    </bean>
+    <bean id="6" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="D"/>
+        <constructor-arg value="6"/>
+        <constructor-arg value="P"/>
+    </bean>
+    <bean id="7" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="G"/>
+        <constructor-arg value="6"/>
+        <constructor-arg value="P"/>
+    </bean>
+    <bean id="8" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="D"/>
+        <constructor-arg value="5"/>
+        <constructor-arg value="p"/>
+    </bean>
+    <bean id="9" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="G"/>
+        <constructor-arg value="5"/>
+        <constructor-arg value="K"/>
+    </bean>
+    <bean id="10" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="B"/>
+        <constructor-arg value="4"/>
+        <constructor-arg value="B"/>
+    </bean>
+    <bean id="11" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="C"/>
+        <constructor-arg value="3"/>
+        <constructor-arg value="R"/>
+    </bean>
+    <bean id="12" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="G"/>
+        <constructor-arg value="2"/>
+        <constructor-arg value="p"/>
+    </bean>
+    <bean id="13" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="H"/>
+        <constructor-arg value="2"/>
+        <constructor-arg value="p"/>
+    </bean>
+    <bean id="14" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="C"/>
+        <constructor-arg value="1"/>
+        <constructor-arg value="R"/>
+    </bean>
+    <bean id="15" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="D"/>
+        <constructor-arg value="1"/>
+        <constructor-arg value="b"/>
+    </bean>
+    <bean id="16" factory-bean="instanceFactory" factory-method="createChessPiece">
+        <constructor-arg value="H"/>
+        <constructor-arg value="1"/>
+        <constructor-arg value="k"/>
+    </bean>
+</beans>
